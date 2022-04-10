@@ -27,7 +27,6 @@ public class Items : ModuleRules
 			{
 				"Core",
 				// ... add other public dependencies that you statically link with here ...
-				"SPUD",
 			}
 			);
 			
@@ -40,6 +39,8 @@ public class Items : ModuleRules
 				"Slate",
 				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
+				"SPUD",
+				"SimplexNoise",
 			}
 			);
 		

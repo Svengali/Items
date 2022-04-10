@@ -20,5 +20,17 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "SPUD",
+			"Enabled": true
+		},
+		{
+			"Name": "SimplexNoise",
+			"Enabled": true
+		}
 	]
+
+
 }

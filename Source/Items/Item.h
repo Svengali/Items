@@ -107,11 +107,17 @@ struct ITEMS_API FICEquippable : public FItemCom
 
 //-----------------------------------------------------------------------------
 
+UCLASS()
+class ITEMS_API UItemTest : public UBlueprintFunctionLibrary
+{
+	GENERATED_BODY()
 
+public:
 
+	UFUNCTION(BlueprintCallable, Category = "Items")
+		static void TestSimplex();
 
-
-
+};
 
 
 
